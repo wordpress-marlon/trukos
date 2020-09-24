@@ -1,6 +1,9 @@
 # Instalación de Wordpress en Linux
 ```  
-import requests
-response = requests.get("http://127.0.0.1")
-print(response)
+apt-get update
+apt-get install apache2
+apt-get install mysql-server
+apt-get install php php-mysql
+
+mysql -u root -px1234567890
 ```  
