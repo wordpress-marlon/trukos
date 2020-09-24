@@ -1,3 +1,10 @@
+# Carpetas
+``` 
+/var/www/html/wordpress
+``` 
+
+
+
 # Instalación de Wordpress en Linux
 ```  
 apt-get update
