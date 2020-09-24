@@ -24,4 +24,21 @@ nano wp-config.php
 chown -R www-data:www-data .
 
 
+cd /etc/apache2/sites-available
+cp 000-default.conf wordpress.conf
+nano wordpress.conf 
+
+<VirtualHost *:80>
+ ServerName donwordpress.com
+DocumentRoot /var/www/html/wordpress
+ ErrorLog ${APACHE_LOG_DIR}/error.log
+ CustomLog ${APACHE_LOG_DIR}/access.log combined
+ </VirtualHost>
+ 
+ 
+ a2ensite wordpress.conf
+a2dissite 000-default.conf
+systemctl restart apache2
+
+
 ```  
