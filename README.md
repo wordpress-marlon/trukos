@@ -3,6 +3,10 @@
 /var/www/html/wordpress
 ``` 
 
+# Permiso Recursivo
+``` 
+chmod -R 777 wordpress
+``` 
 
 
 # Instalación de Wordpress en Linux
