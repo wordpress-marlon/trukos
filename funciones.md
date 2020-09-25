@@ -1,3 +1,19 @@
+# Cómo crear funciones personalizadas
+``` 
+function imprimir_fecha() {
+    // Aquí incluímos el contenido
+    // Ejemplo: imprimimos la fecha
+    echo 'Hoy es ' . date('d/m/Y');
+}
+
+Separar las palabras con guión bajo (mi_nueva_funcion) o con mayúsculas (miNuevaFuncion)
+No empezar con un número. Este nombre no serviría: 35_mi_nueva_funcion 
+En WordPress se suele añadir un prefijo (normalmente el nombre del Tema), para 
+ asegurarnos de que los nombres son únicos. Por ejemplo: twentythirteen_nueva_funcion
+
+<?php imprimir_fecha(); ?>
+``` 
+
 
 # Funciones para el header.php
 ``` 
