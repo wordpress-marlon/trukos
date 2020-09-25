@@ -1,3 +1,8 @@
+# Log PHP
+``` 
+tail -f /var/log/apache2/access.log
+``` 
+
 # Ruta de la Plantilla
 ``` 
 <?php bloginfo('template_url')?>
