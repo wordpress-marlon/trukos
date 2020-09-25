@@ -1,3 +1,8 @@
+# Ruta de la Plantilla
+``` 
+<?php bloginfo('template_url')?>
+``` 
+
 # Carpetas
 ``` 
 /var/www/html/wordpress
