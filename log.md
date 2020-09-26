@@ -27,3 +27,13 @@ if (!function_exists('write_log')) {
 
 write_log('THIS IS THE START OF MY CUSTOM DEBUG');
 ``` 
+
+## Log Wordpress
+``` 
+$variable = $_COOKIE;
+
+echo '<pre>';
+print_r($variable);
+echo '</pre>';
+die();
+``` 
