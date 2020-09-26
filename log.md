@@ -9,7 +9,7 @@ define( 'WP_DEBUG_LOG', true);
 ``` 
 
 
-
+## functions.php
 ``` 
 if (!function_exists('write_log')) {
 
