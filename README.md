@@ -62,4 +62,11 @@ a2dissite 000-default.conf
 systemctl restart apache2
 
 
-```  
+``` 
+
+# Borrar BD
+
+```
+mysql -u root -px1234567890
+drop database wordpress;
+```
