@@ -1,4 +1,4 @@
-# ACF PRO
+# Plugin
 ``` 
 <?php
  /*
@@ -31,6 +31,8 @@
  /* Do not access this file directly */
 
  defined('ABSPATH') or die('°_°’');
+ 
+ ?>
 ``` 
 
 
