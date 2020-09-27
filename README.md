@@ -1,3 +1,9 @@
+
+# API de wordpress
+``` 
+http://localhost:10003/wp-json/wp/v2/posts
+``` 
+
 # Log PHP
 ``` 
 tail -f /var/log/apache2/access.log
