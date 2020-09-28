@@ -49,6 +49,10 @@ wp user list
 wp user update admin --user_pass=x1234567890
 ```
 
+```linux
+wp user create bob1 bob@exampl1e.com --role=administrator
+```
+
 # Desactivar plugin
 ```linux
 wp plugin list
