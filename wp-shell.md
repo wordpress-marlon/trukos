@@ -30,3 +30,9 @@ wp user create bob bob@example.com --role=author
 wp scaffold plugin sample-plugin
 wp scaffold _s sample-theme --theme_name="Sample Theme" --author="John Doe"
 ```
+
+# Cambiar contraseña
+```linux
+wp user list
+wp user update admin --user_pass=x1234567890
+```
