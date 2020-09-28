@@ -36,3 +36,9 @@ wp scaffold _s sample-theme --theme_name="Sample Theme" --author="John Doe"
 wp user list
 wp user update admin --user_pass=x1234567890
 ```
+
+# Desactivar plugin
+```linux
+wp plugin list
+wp plugin deactivate bbpress
+```
