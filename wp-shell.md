@@ -9,6 +9,13 @@ https://wpcommands.com/
 # Ejecutar Funcion
 ```linux
 wp eval 'echo bloginfo('name');'
+wp eval 'echo demo();'
+```
+
+```
+function demo(){
+	echo("Esto es un ejemplo");
+}
 ```
 
 ```linux
