@@ -1,3 +1,6 @@
+# URL
+https://wpcommands.com/
+
 # Comandos
 ```linux
 /Local Sites/wpspain/app/public
@@ -13,6 +16,8 @@ wp plugin install bbpress --activate
 wp plugin activate hello
 wp plugin deactivate hello
 wp plugin delete hello
+
+wp user create bob bob@example.com --role=author
 ```
 
 ```linux
