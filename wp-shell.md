@@ -6,6 +6,11 @@ https://wpcommands.com/
 /Local Sites/wpspain/app/public
 ```
 
+# Ejecutar Funcion
+```linux
+wp eval 'echo bloginfo('name');'
+```
+
 ```linux
 wp core version
 wp shell
