@@ -1,3 +1,18 @@
+# Instalación
+```linux
+curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
+php wp-cli.phar --info
+chmod +x wp-cli.phar
+sudo mv wp-cli.phar /usr/local/bin/wp
+```
+```
+wp --info
+```
+
+```
+wp --path='/var/www/html/wordpress' user list
+```
+
 # URL
 https://wpcommands.com/
 
