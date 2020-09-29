@@ -90,3 +90,7 @@ wp media image-size
 ```linux
 wp media import /home/marlon/Imágenes/wallpapers/*.jpg
 ```
+# Config
+```linux
+wp config set WP_DEBUG true
+```
