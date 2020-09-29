@@ -78,6 +78,7 @@ wp user create bob1 bob@exampl1e.com --role=administrator
 ```linux
 wp plugin list
 wp plugin deactivate bbpress
+wp plugin deactivate --all
 ```
 
 # Listar Imagenes
