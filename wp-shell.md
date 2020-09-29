@@ -8,6 +8,7 @@ sudo mv wp-cli.phar /usr/local/bin/wp
 # Zona Horaria
 ```
 wp option update timezone_string "Europe/Madrid"
+wp option update blogname "Hello"
 ```
 
 ```
@@ -77,4 +78,9 @@ wp user create bob1 bob@exampl1e.com --role=administrator
 ```linux
 wp plugin list
 wp plugin deactivate bbpress
+```
+
+# Listar Imagenes
+```linux
+wp media image-size
 ```
