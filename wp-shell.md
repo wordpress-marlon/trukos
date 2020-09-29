@@ -84,3 +84,8 @@ wp plugin deactivate bbpress
 ```linux
 wp media image-size
 ```
+
+# Insertar Imagenes
+```linux
+wp media import /home/marlon/Imágenes/wallpapers/*.jpg
+```
