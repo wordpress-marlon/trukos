@@ -5,6 +5,11 @@ php wp-cli.phar --info
 chmod +x wp-cli.phar
 sudo mv wp-cli.phar /usr/local/bin/wp
 ```
+# Zona Horaria
+```
+wp option update timezone_string "Europe/Madrid"
+```
+
 ```
 wp --info
 ```
